@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    /* color-scheme: light dark; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --bg-color: #080808;
+    --second-bg-color: #131313;
+    --text-color: white;
+    --main-color: #39FF14;
+
+    /* OPCIONES DE COLORES
+    Electric Blue: #00FFFF
+    Neon Green: #39FF14
+    Vivid Purple: #9F00FF
+    Hot Pink: #FF69B4
+    Laser Yellow: #FFFF66
+    */
+}
+
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
