@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# PortafolioHR
+# Angular-Portafolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
 
@@ -26,6 +25,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# Angular-Portafolio
->>>>>>> e34eee53605af1a331d86f2e3ae514c7e4a092f1
+
