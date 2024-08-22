@@ -1,0 +1,27 @@
+<header class="header">
+
+    <a class="logo">Heryk
+        <span>Rangel</span>
+    </a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a class="active-navbar" href="home">Home</a>
+        <a href="education">Educacion</a>
+        <a href="experience">Experiencias</a>
+        <a href="contact">Contacto</a>
+    </nav>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary btn-lg dropdown-toggle dropdown-btn" (click)="toggleDropdown()">Cambiar Color</button>
+        <div class="dropdown-content" [class.show]="dropdownOpen">
+            <a class="color-electric-blue" (click)="cambiarColor('#00FFFF')">Electric Blue</a>
+            <a class="color-neon-green" (click)="cambiarColor('#39FF14')">Neon Green</a>
+            <a class="color-vivid-purple" (click)="cambiarColor('#9F00FF')">Vivid Purple</a>
+            <a class="color-hot-pink" (click)="cambiarColor('#FF69B4')">Hot Pink</a>
+            <a class="color-laser-yellow" (click)="cambiarColor('#FFFF66')">Laser Yellow</a>
+        </div>
+    </div>
+
+</header>
