@@ -17,13 +17,13 @@
     --text-color: white;
     --main-color: #39FF14;
 
-    /* OPCIONES DE COLORES
-    Electric Blue: #00FFFF
-    Neon Green: #39FF14
-    Vivid Purple: #9F00FF
-    Hot Pink: #FF69B4
-    Laser Yellow: #FFFF66
-    */
+    /* OPCIONES DE COLORES */
+    --electricBlue: #00FFFF;
+    --neonGreen: #39FF14;
+    --vividPurple: #9F00FF;
+    --hotPink: #FF69B4;
+    --laserYellow: #FFFF66;
+    
 }
 
 html {
@@ -34,4 +34,17 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--bwg-color);
+    width: 50px;
 }
