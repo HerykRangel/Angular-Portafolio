@@ -1,0 +1,96 @@
+.experience {
+    padding: 100px 15px;
+    background: var(--bg-color);
+    color: black;
+}
+
+.heading {
+    font-size: 8rem;
+    text-align: center;
+    margin: 5rem 0;
+    color: white;
+    text-shadow: 0 0 25px var(--main-color);
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        text-shadow: 0 0 25px var(--main-color);
+    }
+
+    50% {
+        text-shadow: 0 0 50px var(--main-color),
+            0 0 100px var(--main-color);
+    }
+}
+
+.experience h2 {
+    margin-bottom: 5rem;
+    color: white;
+}
+
+.experience-container {
+    display: grid;
+    max-width: 1300px;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5 rem;
+}
+
+.experience-box {
+    background-color: var(--main-color);
+    height: 300px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    border-radius: 3rem;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.experience-box:hover {
+    background: white;
+    transform: scale(1.03);
+}
+
+.experience-box .experience-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 200px;
+    justify-content: left;
+    align-items: baseline;
+    padding: 5rem 5rem;
+}
+
+.experience-info h4 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 0.5;
+}
+
+.experience-info h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2;
+}
+
+.experience-info p {
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    max-height: 100px;
+    line-height: 1.7;
+    margin: auto;
+
+}
+
+.experience-info a {
+    line-height: 4;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: auto;
+}
