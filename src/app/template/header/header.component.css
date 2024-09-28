@@ -3,12 +3,17 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 4rem 12% 4rem;
+  padding: 2rem 10% 2rem;
   background: rgb(0, 0, 0, 0, 3);
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 5;
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.header.scrolled {
+  background-color: var(--second-bg-color); /* Fondo más oscuro */
 }
 
 .logo {
@@ -30,7 +35,7 @@
 .navbar a {
   font-size: 1.8rem;
   color: var(--tex-color);
-  margin-left: 6rem;
+  margin-left: 7rem;
   font-weight: 1000;
   transition: 0.3s ease;
   border-bottom: 10px solid transparent;
